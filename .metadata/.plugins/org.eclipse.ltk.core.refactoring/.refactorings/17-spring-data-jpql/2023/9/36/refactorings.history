@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename field &apos;list&apos; in &apos;com.jdc.mkt.entity.Category&apos; to &apos;products&apos;&#x0D;&#x0A;- Original project: &apos;17-spring-data-jpql&apos;&#x0D;&#x0A;- Original element: &apos;com.jdc.mkt.entity.Category.list&apos;&#x0D;&#x0A;- Renamed element: &apos;com.jdc.mkt.entity.Category.products&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" delegate="false" deprecate="false" description="Rename field &apos;list&apos;" flags="589826" getter="false" id="org.eclipse.jdt.ui.rename.field" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.jdc.mkt.entity{Category.java[Category^list" name="products" references="true" setter="false" stamp="1694231183892" textual="false" version="1.0"/>
+</session>

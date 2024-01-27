@@ -1,0 +1,107 @@
+insert into category(name) values ('Diary');
+insert into category(name) values ('Snacks');
+insert into category(name) values ('Drinks');
+insert into category(name) values ('Fruits');
+insert into category(name) values ('Vegetables');
+insert into category(name) values ('Cleaning');
+insert into category(name) values('Others');
+
+insert into product (dt_price,name,ws_price,category_id) values(2500,'Milk',2000,1);
+insert into product (dt_price,name,ws_price,category_id) values(2200,'Eggs',2000,1);
+insert into product (dt_price,name,ws_price,category_id) values(4000,'Butter',3800,1);
+insert into product (dt_price,name,ws_price,category_id) values(3000,'Cheese',2500,1);
+insert into product (dt_price,name,ws_price,category_id) values(1200,'Yogurt',1000,1);
+insert into product (dt_price,name,ws_price,category_id) values(700,'Candy',500,2);
+insert into product (dt_price,name,ws_price,category_id) values(1500,'Dried Fruit',1000,2);
+insert into product (dt_price,name,ws_price,category_id) values(800,'Popcorn',500,2);
+insert into product (dt_price,name,ws_price,category_id) values(1200,'Sunflower Seeds',1100,2);
+insert into product (dt_price,name,ws_price,category_id) values(2500,'Tiger Beer',2200,3);
+insert into product (dt_price,name,ws_price,category_id) values(3500,'Su Coffee',3300,3);
+insert into product (dt_price,name,ws_price,category_id) values(3200,'Lemon Juice',3000,3);
+insert into product (dt_price,name,ws_price,category_id) values(1000,'Red Bull',700,3);
+insert into product (dt_price,name,ws_price,category_id) values(42000,'Red level',40000,3);
+insert into product (dt_price,name,ws_price,category_id) values(300,'Super Tea',250,3);
+insert into product (dt_price,name,ws_price,category_id) values(4500,'Aye thar yar Wine',4000,3);
+insert into product (dt_price,name,ws_price,category_id) values(1500,'Apple',1300,4);
+insert into product (dt_price,name,ws_price,category_id) values(1500,'Avocados',1200,4);
+insert into product (dt_price,name,ws_price,category_id) values(2000,'Cherries',1700,4);
+insert into product (dt_price,name,ws_price,category_id) values(1500,'Grapefruit',1300,4);
+insert into product (dt_price,name,ws_price,category_id) values(2000,'Watermelon',1800,4);
+insert into product (dt_price,name,ws_price,category_id) values(2000,'Broccoli',1750,5);
+insert into product (dt_price,name,ws_price,category_id) values(500,'Chilies',400,5);
+insert into product (dt_price,name,ws_price,category_id) values(3200,'Onions',3000,5);
+insert into product (dt_price,name,ws_price,category_id) values(1000,'Potatoes',1000,5);
+insert into product (dt_price,name,ws_price,category_id) values(1200,'Tomatos',1100,5);
+insert into product (dt_price,name,ws_price,category_id) values(4000,'Air fresher',3800,6);
+insert into product (dt_price,name,ws_price,category_id) values(700,'Garbage bag',500,6);
+insert into product (dt_price,name,ws_price,category_id) values(1300,'Glass cleaner',1200,6);
+insert into product (dt_price,name,ws_price,category_id) values(500,'Dish soap',400,6);
+insert into product (dt_price,name,ws_price,category_id) values(2200,'Laundry soap',2000,6);
+insert into product (dt_price,name,ws_price,category_id) values(2200,'Body Wash soap',2000,null);
+
+insert into address(city,street,township) values('Mandalay','No.D-36,Between 27×28th Sts,Between 84×85th Sts','Chan Aye Thar Zan');
+insert into address(city,street,township) values('Yangon','No.3, 56th Street Quarter (7)','Hlaing');
+insert into address(city,street,township) values('Mandalay','19st,Between 80x81 sts','Aungmyaytharzan');
+insert into address(city,street,township) values('Mandalay','Between 35x36 sts,Between 84x85 sts','Maharaungmyay');
+insert into address(city,street,township) values('Mandalay','41st,Between 75x76 sts ','Maharaungmyay');
+
+insert into customer (email,name,phone,address_id) values ('maharswe@gmail.com','mahar swe','02-57494',1);
+insert into customer (email,name,phone,address_id) values ('andrewnyar@gmail.com','Andrew','02-522494',2);
+insert into customer (email,name,phone,address_id) values ('sophia@gmail.com','Sophia','02-7694',2);
+insert into customer (email,name,phone,address_id) values ('William@gmail.com','William','01-234343',2);
+insert into customer (email,name,phone,address_id) values ('John@gmail.com','John','01-993423333',2);
+insert into customer (email,name,phone,address_id) values ('Arnel@gmail.com','Arnel','02-3453453',2);
+insert into customer (email,name,phone,address_id) values ('UpuSampahanlin@gmail.com','Upul Sampah','02-645323',3);
+insert into customer (email,name,phone,address_id) values ('banyar@gmail.com','banyar','02-828342',4);
+insert into customer (email,name,phone,address_id) values ('sanlinanlin@gmail.com','san lin','02-22333345',5);
+
+
+insert into sale(sale_date,customer_id) values ('20220112',1);
+insert into sale(sale_date,customer_id) values ('20220405',2);
+insert into sale(sale_date,customer_id) values ('20230107',3);
+insert into sale(sale_date,customer_id) values ('20230222',4);
+insert into sale(sale_date,customer_id) values ('20230303',5);
+insert into sale(sale_date,customer_id) values ('20230411',6);
+insert into sale(sale_date,customer_id) values ('20230510',6);
+insert into sale(sale_date,customer_id) values ('20230512',5);
+insert into sale(sale_date,customer_id) values ('20230512',3);
+insert into sale(sale_date,customer_id) values ('20230512',4);
+insert into sale(sale_date,customer_id) values ('20230604',7); 
+insert into sale(sale_date,customer_id) values ('20230620',8);
+
+insert into sale_details (product_id,sales_id,qty,total) values (1,1,3,7500);
+insert into sale_details (product_id,sales_id,qty,total) values (3,1,2,8000);
+insert into sale_details (product_id,sales_id,qty,total) values (5,1,5,6000);
+insert into sale_details (product_id,sales_id,qty,total) values (11,2,1,3500);
+insert into sale_details (product_id,sales_id,qty,total) values (12,2,2,6400);
+insert into sale_details (product_id,sales_id,qty,total) values (13,2,2,2000);
+insert into sale_details (product_id,sales_id,qty,total) values (1,3,3,7500);
+insert into sale_details (product_id,sales_id,qty,total) values (3,3,2,8000);
+insert into sale_details (product_id,sales_id,qty,total) values (5,3,5,6000);
+insert into sale_details (product_id,sales_id,qty,total) values (1,4,3,7500);
+insert into sale_details (product_id,sales_id,qty,total) values (3,4,2,8000);
+insert into sale_details (product_id,sales_id,qty,total) values (2,4,5,11000);
+insert into sale_details (product_id,sales_id,qty,total) values (22,5,3,6000);
+insert into sale_details (product_id,sales_id,qty,total) values (1,5,2,5000);
+insert into sale_details (product_id,sales_id,qty,total) values (30,5,3,6600);
+insert into sale_details (product_id,sales_id,qty,total) values (1,6,3,7500);
+insert into sale_details (product_id,sales_id,qty,total) values (3,6,2,8000);
+insert into sale_details (product_id,sales_id,qty,total) values (5,6,5,6000);
+insert into sale_details (product_id,sales_id,qty,total) values (11,7,1,3500);
+insert into sale_details (product_id,sales_id,qty,total) values (12,7,2,6400);
+insert into sale_details (product_id,sales_id,qty,total) values (1,8,3,7500);
+insert into sale_details (product_id,sales_id,qty,total) values (3,8,2,8000);
+insert into sale_details (product_id,sales_id,qty,total) values (5,8,5,6000);
+insert into sale_details (product_id,sales_id,qty,total) values (1,9,3,7500);
+insert into sale_details (product_id,sales_id,qty,total) values (22,10,3,6000);
+insert into sale_details (product_id,sales_id,qty,total) values (1,10,2,5000);
+insert into sale_details (product_id,sales_id,qty,total) values (30,10,3,6600);
+insert into sale_details (product_id,sales_id,qty,total) values (22,11,3,6000);
+insert into sale_details (product_id,sales_id,qty,total) values (1,11,2,5000);
+insert into sale_details (product_id,sales_id,qty,total) values (19,11,3,6000);
+insert into sale_details (product_id,sales_id,qty,total) values (22,12,3,6000);
+insert into sale_details (product_id,sales_id,qty,total) values (1,12,2,5000);
+insert into sale_details (product_id,sales_id,qty,total) values (30,12,3,6600);
+
+
+

@@ -1,0 +1,4 @@
+1697616785030	Rename resource 'application.properties'
+1697617011791	Rename resource 'application.yml'
+1697617827604	Rename method 'findByStateRegionOrderByName'
+1697618222579	Rename method 'findByStateRegion'

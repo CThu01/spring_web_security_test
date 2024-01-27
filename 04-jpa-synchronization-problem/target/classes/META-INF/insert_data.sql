@@ -1,0 +1,1 @@
+insert into account (name,balance) values ("Sophia",100000);

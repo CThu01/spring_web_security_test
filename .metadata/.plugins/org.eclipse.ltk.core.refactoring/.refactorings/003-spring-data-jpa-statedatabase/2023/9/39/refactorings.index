@@ -1,0 +1,6 @@
+1695722040242	Rename method 'findByType'
+1695722169471	Rename method 'searchByType'
+1695730704420	Rename method 'findOneByName'
+1695824315914	Rename type 'PredicateTest'
+1695825656750	Rename method 'findWithNameQuery'
+1695828882048	Rename method 'findWithQueryAnnotation'
